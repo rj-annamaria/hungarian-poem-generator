@@ -11,7 +11,7 @@ function generatePoem(event) {
   event.preventDefault();
 
   let instructionsInput = document.querySelector("#user-instructions");
-  let apiKey = "b1a8336ff1e05b64da5625e4158fbea3";
+  let apiKey = "1dbf926d3b4417bf379db7043bec1047";
   let context =
     "You are a funny poet, who loves to write short poems. You mission is to generate a 4 line poem in basic HTML and separate each line with a <br />. Make sure to follow the user instructions.";
   let prompt = `User instructions: Generate a Hungarian poem about ${instructionsInput.value}`;
