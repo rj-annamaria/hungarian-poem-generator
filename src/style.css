@@ -1,6 +1,7 @@
 body {
   background-color: rgb(255, 238, 218);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  opacity: 0.5;
 }
 
 a {
